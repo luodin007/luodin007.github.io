@@ -4,7 +4,7 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->  
   <head>
-    <title></title>
+    <!--<title></title>-->
 
     <meta charset="utf-8">
     {% comment %}
@@ -46,18 +46,6 @@
   </head>
   <body>
     {% include sidebar.html %}
-    <div class="main-wrapper">
-      <div class="header">
-        <div class="container">
-          <div class="header-logo">{% include logo.html %}</div>
-          <div class="header-title">
-            <a href="{{ '' | prepend: site.baseurl | prepend: site.url | append: '/' }}" 
-              title="{{ site.title }}"> 
-              <h3>{{ site.title }}<small>{{ site.tagline }}</small></h3>
-            </a>
-          </div>        
-        </div>  
-      </div>
       
       <div class="container content">
           {{ content }}
