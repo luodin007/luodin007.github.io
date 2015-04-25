@@ -5,7 +5,6 @@ date:   2015-04-25 22:16:55
 categories: 杂项
 comments: true
 ---
-#Hello World, Again
 之前博客一周年的一点回顾。
 ![enter image description here](http://7xiprm.com1.z0.glb.clouddn.com/nwber_one_year.png)
 
@@ -18,6 +17,8 @@ comments: true
 	第一阶段，刚接触 Blog，觉得很新鲜，试着选择一个免费空间来写。
 	第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。
 	第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。
+
+
  这段话太过有名了，以至于现在好多github+jekyll新手教程文章开头都得引用一下。：）  
  我也算是从CSDN => VPS + Wordpress => Github + Jekyll一路折腾过来，算是第三阶段了？
  
@@ -64,4 +65,3 @@ comments: true
 虽然文笔很烂，语句多不通顺，思路乱跳。  
 但是这是一个新的开始了，但愿这次能够走得更远，离菊苣们差距减小一些。  
 就这样吧。
-return 0;
