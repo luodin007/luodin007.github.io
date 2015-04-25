@@ -47,10 +47,11 @@
   <body>
     {% include sidebar.html %}
     {% if site.banner_image %}
+    {% if not page.banner_image %}
   <div class="banner-image">
     <img 
         src="{{ "/assets/images/" | append: site.banner_image | prepend: site.baseurl | prepend: site.url }}" 
-        alt="{{ site.banner_image_alt }}">
+        alt="{{ site.banner_image }}">
   </div>
   {% endif %}      
       <div class="container content">
