@@ -3,11 +3,13 @@ layout: post
 title:  "Hello World, Again"
 date:   2015-04-25 22:16:55
 categories: 杂项
-banner_image: http://7xiprm.com1.z0.glb.clouddn.com/nwber_one_year.png
 comments: true
 ---
 ### 关于上一个博客
 -------------------------------
+![enter image description here](http://7xiprm.com1.z0.glb.clouddn.com/nwber_one_year.png)
+
+
  [上一个博客](http://www.nwber.com/)是我21岁的生日礼物，用性能强悍的VPS加上自己也解释不清意思的域名搭建了在网络中的第一块净土。但是断断续续的写了四十几篇后实在没动力写下去，就从去年十一月开始没更新了。想想，一个菜鸟用幼稚的强行装逼去写教程只会误人子弟，技术没吃透就乱写，配合不怎么样的文笔只会把简单问题说复杂，而且我自己写的很累。如果作为记录零碎的知识点，其方便性却不如EverNote。   
  
 ### 博客应该怎么写
