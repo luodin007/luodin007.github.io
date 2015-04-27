@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World, Again"
 date:   2015-04-25 22:16:55
-categories: 杂项
+categories: Trifles
 comments: true
 ---
 
