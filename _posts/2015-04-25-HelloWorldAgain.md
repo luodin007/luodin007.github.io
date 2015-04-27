@@ -54,8 +54,10 @@ comments: true
 
  这段话太过有名了，以至于现在好多github+jekyll新手教程文章开头都得引用一下。：）  
  我也算是从CSDN => VPS + Wordpress => Github + Jekyll一路折腾过来，算是第三阶段了？
+
 - **使用Jekyll生成博客**  
 	这几天抽空看了下Jekyll，octopress，hexo等等静态博客生成器，发现都大同小异。所以就用了Github官方支持的Jekyll，懒得折腾了，下一个模板改改就这样。  
+
 - **整理了下思路**  
 	这几个月的实习还是受益匪浅，整理了下 EverNote 上的东西发现还是有很多能扯扯的。
 
