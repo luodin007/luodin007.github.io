@@ -58,7 +58,7 @@ simhash是由 Charikar 在2002年提出来的，主要是Google用于网页去�
 * the cat sat on a mat  
 * we all scream for ice cream  
 
-	####算法流程如下：
+####算法流程如下：
 1. 选择simhash的长度位数（二进制），请综合考虑存储成本以及数据集的大小，比如说64位  
 2. 将simhash的各位初始化为0，得到64位的全0一维矩阵   
 3. 提取原始文本中的特征，一般采用各种分词的方式。比如对于"the cat sat on the mat"，使用python常用的字符串分割split得到：['the', 'cat', 'sat', 'on', 'the', 'mat']  
@@ -70,7 +70,7 @@ simhash是由 Charikar 在2002年提出来的，主要是Google用于网页去�
 9.  这样我们就得到了最终文本simhash值，结果为[1,1,0,0,1,1]  
 ![simhash算法流程图](http://7xiprm.com1.z0.glb.clouddn.com/.1430579971731.png)
 
-	###匹配流程：  
+####匹配流程：  
 1. 得到两个文本的simhash值，假设为hash1（110011）和hash2（010001）  
 2. 我们通过求汉明距离（Hamming distance）得到两hash 值的相似程度  
 	hash1 ：  **1**100**1**1  
