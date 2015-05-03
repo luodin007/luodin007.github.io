@@ -35,7 +35,9 @@ theme:
   google_webmaster_key: 
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 
 # Permalinks
 permalink:        pretty
