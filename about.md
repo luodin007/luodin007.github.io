@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: 这货是谁
 permalink: /about/
 banner_image: sample-banner-image-2.jpg
