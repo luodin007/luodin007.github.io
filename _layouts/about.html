@@ -21,6 +21,16 @@ layout: default
 
 </div>
 
+  <div class="author-info">
+    {% if site.theme.show_author_info %}
+      {% include author.html %}
+    {% endif %}
+  
+    {% if site.theme.show_share_buttons %}
+      {% include share-buttons.html %}
+    {% endif %}  
+  </div>
+  
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
@@ -35,4 +45,4 @@ layout: default
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
--->
+
