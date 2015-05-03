@@ -6,10 +6,10 @@ banner_image: sample-banner-image-2.jpg
 banner_image_alt: About me
 ---
 
-KnownSec实习生, 主攻Python, 兼半吊子独立游戏开发。  
+UESTC大三在读, KnownSec实习生, 主攻Python, 兼半吊子独立游戏开发。  
 目标成为一个写得了前端，撸得住后台，搞得了渗透，做的来游戏的 Full Stack Developer.
 
-邮箱: [luodin2013@gmail.com](luodin2013@gmail.com)
+邮箱: luodin2013#gmail.com
 
 ---
 
