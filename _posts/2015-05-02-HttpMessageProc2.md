@@ -50,7 +50,7 @@ comments: true
 3. 更加pythonic ；）  
 4. 适用于multiprocessing的map操作  
 
-```
+```python
 #!/usr/bin/python
 # coding=utf-8
 
