@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "对海量HTTP响应报文聚类分析——相似性算法调研"
+title:  "对海量HTTP响应报文聚类分析——simhash算法的Python实现"
 date:   2015-05-03 18:42:11
 categories: 海量数据
 comments: true
 ---
-
-# 对海量HTTP响应报文聚类分析--simhash算法的Python实现
 
 [上文](http://luoding.me/%E6%B5%B7%E9%87%8F%E6%95%B0%E6%8D%AE/2015/05/02/HttpMessageProc1/)我们对可能用到的相似性算法做了调研，最后暂定使用simhash作为本次相似性分类的算法。
 于是
