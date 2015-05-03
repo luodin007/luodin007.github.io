@@ -115,7 +115,8 @@ class SimHash:
             x ^= len(source)
             if x == -1:
                 x = -2
-            return x
+            return x  
+            
 if __name__ == '__main__':
     print '权重测试(int)'
     tokens1 = [['asdfasdf', 2], ['asdfa', 1], ['s', 0]]
