@@ -50,7 +50,7 @@ comments: true
 3. 更加pythonic ；）  
 4. 适用于multiprocessing的map操作  
 
-{% highlight python %}
+```
 #!/usr/bin/python
 # coding=utf-8
 
@@ -141,7 +141,7 @@ if __name__ == '__main__':
     print test3.get_hash(str1.split())
     print test3.get_hash(str2.split())
     print test1.calc_hamming_distance(test3.get_hash(str1.split()), test3.get_hash(str2.split()))
-{% endhighlight %}
+```
 
 ###Reference：  
 [1] [Github: sangelone/python-hashes](https://github.com/sangelone/python-hashes)   
