@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "对海量HTTP响应报文进行聚类分析——相似性算法调研"
+title:  "对海量HTTP响应报文聚类分析——相似性算法调研"
 date:   2015-05-02 21:10:12
 categories: 海量数据
 comments: true
