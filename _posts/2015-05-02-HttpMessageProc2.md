@@ -2,7 +2,7 @@
 layout: post
 title:  "对海量HTTP响应报文聚类分析——simhash算法的Python实现"
 date:   2015-05-03 18:42:11
-categories: 海量数据
+categories: BigData
 comments: true
 ---
 
