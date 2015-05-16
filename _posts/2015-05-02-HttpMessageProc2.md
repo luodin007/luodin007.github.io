@@ -6,7 +6,7 @@ categories: BigData
 comments: true
 ---
 
-[上文](http://luoding.me/%E6%B5%B7%E9%87%8F%E6%95%B0%E6%8D%AE/2015/05/02/HttpMessageProc1/)我们对可能用到的相似性算法做了调研，最后暂定使用simhash作为本次相似性分类的算法。    
+[上文](http://luoding.me/bigdata/2015/05/02/HttpMessageProc1/)我们对可能用到的相似性算法做了调研，最后暂定使用simhash作为本次相似性分类的算法。    
 于是经过一番搜索后，决定不去造轮子，而是直接照搬现成的代码看看效果。  
 但是毫不客气的说，现在不论是Google还是百度搜到的simhash的流程介绍都是有问题的（至少对新手来说），Python代码更是千篇一律，来源可能是github上的[python-hashes](https://github.com/sangelone/python-hashes/blob/master/hashes/simhash.py)。我不爽的原因很简单，因为我被坑了。。  
 所以经过对算法流程重新学习，算法代码的review，各种内置hash算法的测试、以及不同hashbits和汉明距离阈值的测试。。。终于能用了。。。 \_(:3」∠)_   
