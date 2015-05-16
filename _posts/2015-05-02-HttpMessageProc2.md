@@ -15,9 +15,9 @@ comments: true
 #simhash算法流程
 
 假设我有三个字符串，简单起见我们使用英文字符串，例子也是别人的例子  
-* the cat sat on the mat  
-* the cat sat on a mat  
-* we all scream for ice cream  
+		the cat sat on the mat  
+		the cat sat on a mat  
+		we all scream for ice cream  
 
 ####算法流程如下：  
 1. 选择simhash的长度位数（二进制），请综合考虑存储成本以及数据集的大小，比如说64位  
@@ -50,7 +50,7 @@ comments: true
 3. 更加pythonic ；）  
 4. 适用于multiprocessing的map操作  
 
-```python
+~~~
 #!/usr/bin/python
 # coding=utf-8
 
@@ -141,7 +141,7 @@ if __name__ == '__main__':
     print test3.get_hash(str1.split())
     print test3.get_hash(str2.split())
     print test1.calc_hamming_distance(test3.get_hash(str1.split()), test3.get_hash(str2.split()))
-```
+~~~
 
 ###Reference：  
 [1] [Github: sangelone/python-hashes](https://github.com/sangelone/python-hashes)   
