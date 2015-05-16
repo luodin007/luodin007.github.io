@@ -21,26 +21,28 @@ simhash作为Google用来网页去重的算法，对于长文本效果很不错�
 		header中的常见项在[wiki中可以查到](http://en.wikipedia.org/wiki/List_of_HTTP_header_fields)，我们并不需要对每一项进行了解，只需要知道哪些对我们没有帮助，哪些是我们识别中经常会使用的。 
 比如说下面的项虽然对浏览器有用，但是对我们识别组件并没有帮助，所以我们将其从header中除去，减少我们处理的文本量。 
 
-		|    Key   	|    Value 						|
-	| :-------- | :-----------------------------:|
-	| date 		| Fri, 13 Mar 2015 16:01:14 GMT |
-	| age		|   22 							|
-	| content-length|   1636			|
-	| last-modified|   Thu, 11 Apr 2013 19:48:27 GMT	|
-	| expires	|   Thu, 01 Jan 1970 00:00:00 GMT	|
-	| location	|   https://192.168.1.58:4343/ 							|
-	| content-type|   text/html; charset=utf-8	|
-	| connection	|   close	|
-	| pragma|   no-cache|
-	| cache-control|   private|
-	| accept-ranges|   bytes|
-	下列的项对于我们识别组件至关重要，很多情况下正则识别的就是这些项的值。
-		|    Key   	|    Value 						|
-	| :-------- | :-----------------------------|
-	| server	| cloudfront 					 |
-	| x-		| X-Cache: Error from cloudfront |
-	| www-authenticate| Basic realm="Multi-Homing Gateway Administration Tools" |
-	| via 		| 1.1 69138579f0e00411ece41ff78ec07fb6.cloudfront.net (CloudFront) |
+|    Key   	|    Value 						|
+| :-------- | :-----------------------------:|
+| date 		| Fri, 13 Mar 2015 16:01:14 GMT |
+| age		|   22 							|
+| content-length|   1636			|
+| last-modified|   Thu, 11 Apr 2013 19:48:27 GMT	|
+| expires	|   Thu, 01 Jan 1970 00:00:00 GMT	|
+| location	|   https://192.168.1.58:4343/ 							|
+| content-type|   text/html; charset=utf-8	|
+| connection	|   close	|
+| pragma|   no-cache|
+| cache-control|   private|
+| accept-ranges|   bytes|
+
+下列的项对于我们识别组件至关重要，很多情况下正则识别的就是这些项的值。
+
+|    Key   	|    Value 						|
+| :-------- | :-----------------------------|
+| server	| cloudfront 					 |
+| x-		| X-Cache: Error from cloudfront |
+| www-authenticate| Basic realm="Multi-Homing Gateway Administration Tools" |
+| via 		| 1.1 69138579f0e00411ece41ff78ec07fb6.cloudfront.net (CloudFront) |
 
 * **html清洗**  
 	对于html中有很多powered by等有效信息，但是对于我们来说提取难度过大，所以我们只对容易提取的html结构（title和meta）等进行提取，至于网页正文中的内容并不做处理。而且为了减少正则匹配代价，我们对html长度小于200（暂定）并不做清洗，直接分词加入较低权重即可。  
